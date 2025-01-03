@@ -3,6 +3,13 @@ import React from 'react'
 import { motion } from 'framer-motion'
 
 export default function Projets() {
+
+  let images = [
+    "/images/moviz.png",
+    "/images/yoga.png",
+    "/images/louisBlankaert.png",
+  ]
+
   return (
     <div className="py-24 px-4 min-h-screen">
       <div className="max-w-7xl mx-auto">
@@ -24,21 +31,26 @@ export default function Projets() {
             transition={{ duration: 0.3, ease: "easeOut" }}
             className="bg-white rounded-2xl shadow-lg overflow-hidden group cursor-pointer"
           >
-            <a href="https://example.com" target="_blank" rel="noopener noreferrer" className="block">
+            <a href="https://movie-tau-mocha.vercel.app/" target="_blank" rel="noopener noreferrer" className="block">
               <div className="relative h-64 w-full">
                 {/* Remplacer le src par votre image */}
                 <img 
-                  src="/images/desktops.png" 
-                  alt="Projet 1" 
+                  src={images[0]} 
+                  alt="Moviz 2.0" 
                   className="absolute inset-0 w-full h-full object-cover scale-110 transition-transform duration-500 ease-out group-hover:scale-100"
                 />
               </div>
-              <div className="p-6">
-                <h3 className="text-xl font-bold mb-2 text-[#4ea5ff]">Projet 1</h3>
-                <p className="text-gray-600 mb-4">Description de votre premier projet. Expliquez ce que vous avez réalisé.</p>
-                <div className="flex gap-2">
+              <div className="p-6 h-[250px] relative">
+                <div>
+                  <h3 className="text-xl font-bold mb-2 text-[#4ea5ff]">Moviz 2.0</h3>
+                  <p className="text-gray-600 mb-4">Site de films et series pour pouvoir enregistrer vos favoris et les regarder plus tard.</p>
+                </div>
+                <div className="flex gap-2 flex-wrap absolute bottom-6">
+                  <span className="px-3 py-1 bg-[#4ea5ff]/10 text-[#4ea5ff] rounded-full text-sm">Next.js</span>
                   <span className="px-3 py-1 bg-[#4ea5ff]/10 text-[#4ea5ff] rounded-full text-sm">React</span>
                   <span className="px-3 py-1 bg-[#4ea5ff]/10 text-[#4ea5ff] rounded-full text-sm">Tailwind</span>
+                  <span className="px-3 py-1 bg-[#4ea5ff]/10 text-[#4ea5ff] rounded-full text-sm">Prisma</span>
+                  <span className="px-3 py-1 bg-[#4ea5ff]/10 text-[#4ea5ff] rounded-full text-sm">SQL</span>
                 </div>
               </div>
             </a>
@@ -53,21 +65,24 @@ export default function Projets() {
             transition={{ duration: 0.3, ease: "easeOut" }}
             className="bg-white rounded-2xl shadow-lg overflow-hidden group cursor-pointer"
           >
-            <a href="https://example.com" target="_blank" rel="noopener noreferrer" className="block">
+            <a href="https://yoga-three-cyan.vercel.app/" target="_blank" rel="noopener noreferrer" className="block">
               <div className="relative h-64 w-full">
                 {/* Remplacer le src par votre image */}
                 <img 
-                  src="/images/desktops.png" 
-                  alt="Projet 2" 
+                  src={images[1]} 
+                  alt="Yoga" 
                   className="absolute inset-0 w-full h-full object-cover scale-110 transition-transform duration-500 ease-out group-hover:scale-100"
                 />
               </div>
-              <div className="p-6">
-                <h3 className="text-xl font-bold mb-2 text-[#4ea5ff]">Projet 2</h3>
-                <p className="text-gray-600 mb-4">Description de votre deuxième projet. Expliquez ce que vous avez réalisé.</p>
-                <div className="flex gap-2">
+              <div className="p-6 h-[250px] relative">
+                <div>
+                  <h3 className="text-xl font-bold mb-2 text-[#4ea5ff]">Yoga</h3>
+                  <p className="text-gray-600 mb-4">Dans l'univers de la yoga, nous avons mis en place une application web pour faciliter la communication entre les praticiens et leurs clients.</p>
+                </div>
+                <div className="flex gap-2 flex-wrap absolute bottom-6">
                   <span className="px-3 py-1 bg-[#4ea5ff]/10 text-[#4ea5ff] rounded-full text-sm">Next.js</span>
-                  <span className="px-3 py-1 bg-[#4ea5ff]/10 text-[#4ea5ff] rounded-full text-sm">TypeScript</span>
+                  <span className="px-3 py-1 bg-[#4ea5ff]/10 text-[#4ea5ff] rounded-full text-sm">React</span>
+                  <span className="px-3 py-1 bg-[#4ea5ff]/10 text-[#4ea5ff] rounded-full text-sm">Tailwind</span>
                 </div>
               </div>
             </a>
@@ -82,21 +97,24 @@ export default function Projets() {
             transition={{ duration: 0.3, ease: "easeOut" }}
             className="bg-white rounded-2xl shadow-lg overflow-hidden group cursor-pointer"
           >
-            <a href="https://example.com" target="_blank" rel="noopener noreferrer" className="block">
+            <a href="https://www.louisblankaert.com/" target="_blank" rel="noopener noreferrer" className="block">
               <div className="relative h-64 w-full">
                 {/* Remplacer le src par votre image */}
                 <img 
-                  src="/images/desktops.png" 
-                  alt="Projet 3" 
+                  src={images[2]} 
+                  alt="Portfolio" 
                   className="absolute inset-0 w-full h-full object-cover scale-110 transition-transform duration-500 ease-out group-hover:scale-100"
                 />
               </div>
-              <div className="p-6">
-                <h3 className="text-xl font-bold mb-2 text-[#4ea5ff]">Projet 3</h3>
-                <p className="text-gray-600 mb-4">Description de votre troisième projet. Expliquez ce que vous avez réalisé.</p>
-                <div className="flex gap-2">
-                  <span className="px-3 py-1 bg-[#4ea5ff]/10 text-[#4ea5ff] rounded-full text-sm">Vue.js</span>
-                  <span className="px-3 py-1 bg-[#4ea5ff]/10 text-[#4ea5ff] rounded-full text-sm">Node.js</span>
+              <div className="p-6 h-[250px] relative">
+                <div>
+                  <h3 className="text-xl font-bold mb-2 text-[#4ea5ff]">Portfolio</h3>
+                  <p className="text-gray-600 mb-4">Portfolio de Louis Blankaert, jeune developpeur web.</p>
+                </div>
+                <div className="flex gap-2 flex-wrap absolute bottom-6">
+                  <span className="px-3 py-1 bg-[#4ea5ff]/10 text-[#4ea5ff] rounded-full text-sm">JavaScript</span>
+                  <span className="px-3 py-1 bg-[#4ea5ff]/10 text-[#4ea5ff] rounded-full text-sm">Tailwind</span>
+                  <span className="px-3 py-1 bg-[#4ea5ff]/10 text-[#4ea5ff] rounded-full text-sm">Framer Motion</span>
                 </div>
               </div>
             </a>

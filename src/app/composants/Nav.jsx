@@ -38,13 +38,15 @@ export default function Nav() {
       className={`fixed top-0 w-full z-50 transition-all duration-300 ${
         isHome ? (scrolled ? 'backdrop-blur-md bg-black/30' : 'bg-transparent') : 'backdrop-blur-md bg-black/30'
       }`}
-      animate={{ y: hidden && isHome ? -100 : 0 }}
+      animate={{ y: hidden && isHome ? -150 : 0 }}
       transition={{ duration: 0.3 }}
     >
-      <div className="max-w-7xl mx-auto px-4 py-6 flex justify-between">
+      <div className="max-w-7xl mx-auto px-4 flex justify-between items-center">
         {/* logo */}
         <div>
-          <Link href="/"><h1 className="text-white font-bold text-xl">Logo</h1></Link>
+          <Link href="/">
+            <img src="/images/logo.png" alt="Logo" className="h-28" />
+          </Link>
         </div>
         {/* menu */}
         <div>

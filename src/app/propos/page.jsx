@@ -7,16 +7,16 @@ export default function Propos() {
 
   const sections = [
     {
-      title: "Lorem ipsum dolor sit, amet consectetur.",
-      content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, quibusdam. Dolorem quo, aperiam magni deserunt explicabo recusandae veniam perspiciatis eaque, voluptas nulla facere! Libero corporis amet accusantium inventore impedit non."
+      title: "100% de transparence et de reactivité.",
+      content: "Chaque projet étant unique, il mérite des fonctionnalités et caractéristiques sur mesure. Les solutions standardisées peuvent freiner le potentiel. C’est pourquoi nous concevons des offres personnalisées, parfaitement adaptées à vos besoins spécifiques."
     },
     {
-      title: "Lorem ipsum dolor sit, amet consectetur.",
-      content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, quibusdam. Dolorem quo, aperiam magni deserunt explicabo recusandae veniam perspiciatis eaque, voluptas nulla facere! Libero corporis amet accusantium inventore impedit non."
+      title: "Collaboration basée sur la confiance.",
+      content: "Nous accordons une grande importance à une relation personnelle avec vous. Cette relation repose avant tout sur l’échange. Bien que la numérisation soit notre passion, notre priorité reste de comprendre votre entreprise et de saisir pleinement ce que vous représentez."
     },
     {
-      title: "Lorem ipsum dolor sit, amet consectetur.",
-      content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, quibusdam. Dolorem quo, aperiam magni deserunt explicabo recusandae veniam perspiciatis eaque, voluptas nulla facere! Libero corporis amet accusantium inventore impedit non."
+      title: "fiabilité et engagement.",
+      content: "Pour garantir une parfaite transparence tout au long du projet, nous vous tenons régulièrement informé de son avancement. Même dans les périodes les plus intenses, vous pouvez compter sur notre réactivité. En cas d’urgence, nous nous adaptons à vos délais et intervenons là où vous en avez besoin."
     }
   ]
 
@@ -42,9 +42,9 @@ export default function Propos() {
         </div>
         <div className='grid grid-cols-4 gap-4 justify-center items-center px-10'>
             <div className='text-center p-20 border shadow-lg font-bold flex flex-col'>Fondée en <span className='text-[#4ea5ff] text-4xl font-bold'>2024</span></div>
-            <div className='text-center p-20 border shadow-lg font-bold flex flex-col'>Fondée en <span className='text-[#4ea5ff] text-4xl font-bold'>2024</span></div>
-            <div className='text-center p-20 border shadow-lg font-bold flex flex-col'>Fondée en <span className='text-[#4ea5ff] text-4xl font-bold'>2024</span></div>
-            <div className='text-center p-20 border shadow-lg font-bold flex flex-col'>Fondée en <span className='text-[#4ea5ff] text-4xl font-bold'>2024</span></div>
+            <div className='text-center p-20 border shadow-lg font-bold flex flex-col'>Clients <span className='text-[#4ea5ff] text-4xl font-bold'>4</span></div>
+            <div className='text-center p-20 border shadow-lg font-bold flex flex-col'>Projets <span className='text-[#4ea5ff] text-4xl font-bold'>26</span></div>
+            <div className='text-center p-20 border shadow-lg font-bold flex flex-col'>Employés <span className='text-[#4ea5ff] text-4xl font-bold'>2</span></div>
         </div>
         <div className='flex flex-col items-center pt-20 space-y-4'>
           {sections.map((section, index) => (
@@ -56,7 +56,7 @@ export default function Propos() {
                 whileTap={{ scale: 0.99 }}
               >
                 <div className="flex justify-between items-center">
-                  <span>{section.title}</span>
+                  <span className="text-[#4ea5ff]">{section.title}</span>
                   <motion.svg
                     animate={{ rotate: openSection === index ? 180 : 0 }}
                     transition={{ duration: 0.3 }}
