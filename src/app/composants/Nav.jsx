@@ -70,12 +70,12 @@ export default function Nav() {
           <div className="hidden md:block">
             <ul className="flex gap-x-4 lg:gap-x-8">
               <Link href="/propos">
-                <li className="text-white text-sm lg:text-base rounded-md hover:text-[#4ea5ff] hover:bg-[#4ea5ff] hover:rounded-md px-2 py-2 transition-all duration-300 ease-in-out whitespace-nowrap">
+                <li className="text-white text-sm lg:text-base rounded-md hover:bg-[#4ea5ff] hover:rounded-md px-2 py-2 transition-all duration-300 ease-in-out whitespace-nowrap">
                   A propos
                 </li>
               </Link>
               <Link href="/contact">
-                <li className="text-white text-sm lg:text-base rounded-md hover:text-[#4ea5ff] hover:bg-[#4ea5ff] hover:rounded-md px-2 py-2 transition-all duration-300 ease-in-out whitespace-nowrap">
+                <li className="text-white text-sm lg:text-base rounded-md hover:bg-[#4ea5ff] hover:rounded-md px-2 py-2 transition-all duration-300 ease-in-out whitespace-nowrap">
                   Contact
                 </li>
               </Link>
