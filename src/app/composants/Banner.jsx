@@ -32,7 +32,7 @@ export default function Banner() {
           initial="hidden" 
           whileInView={"show"} 
           viewport={{ once: false, amount: 0.3 }} 
-          className='mb-4 text-[2rem] sm:text-[3rem] md:text-[3.75rem] text-[#4ea5ff] font-semibold uppercase flex items-end min-h-[3rem] sm:min-h-[4rem] md:min-h-[5rem]'
+          className='h-[3rem] sm:h-[4rem] md:h-[5rem] mb-4 text-[2rem] sm:text-[3rem] md:text-[3.75rem] text-[#4ea5ff] font-semibold uppercase flex items-end'
         >
           <TypeAnimation 
             sequence={[
@@ -61,7 +61,7 @@ export default function Banner() {
           />
         </motion.div>
         <div className="flex flex-col gap-y-4 items-center text-center">
-          <p className="text-sm sm:text-base md:text-lg max-w-md mx-auto">
+          <p className="text-sm sm:text-base md:text-lg mx-auto">
             Depuis 2024 nos solutions ne contentent pas d'être beau, elles sont surtout conçues pour atteindre leurs objectif
           </p>
         </div>
