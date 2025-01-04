@@ -41,11 +41,12 @@ export default function Nav() {
       animate={{ y: hidden && isHome ? -150 : 0 }}
       transition={{ duration: 0.3 }}
     >
-      <div className="max-w-7xl mx-auto px-4 flex justify-between items-center">
+      <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
         {/* logo */}
         <div>
           <Link href="/">
-            <img src="/images/logo.png" alt="Logo" className="h-28" />
+            {/* <img src="/images/logo.png" alt="Logo" className="h-28" /> */}
+            <h1 className="text-4xl font-bold text-[#4ea5ff]">Dev_Express</h1>
           </Link>
         </div>
         {/* menu */}
