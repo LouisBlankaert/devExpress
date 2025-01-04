@@ -37,7 +37,7 @@ export default function Projets() {
                 <img 
                   src={images[0]} 
                   alt="Moviz 2.0" 
-                  className="absolute inset-0 w-full h-full object-cover scale-110 transition-transform duration-500 ease-out group-hover:scale-100"
+                  className="absolute inset-0 w-full h-full object-fill md:scale-110 transition-transform duration-500 ease-out md:group-hover:scale-100"
                 />
               </div>
               <div className="p-6 h-[250px] relative">
@@ -71,7 +71,7 @@ export default function Projets() {
                 <img 
                   src={images[1]} 
                   alt="Yoga" 
-                  className="absolute inset-0 w-full h-full object-cover scale-110 transition-transform duration-500 ease-out group-hover:scale-100"
+                  className="absolute inset-0 w-full h-full object-fill md:scale-110 transition-transform duration-500 ease-out md:group-hover:scale-100"
                 />
               </div>
               <div className="p-6 h-[250px] relative">
@@ -103,7 +103,7 @@ export default function Projets() {
                 <img 
                   src={images[2]} 
                   alt="Portfolio" 
-                  className="absolute inset-0 w-full h-full object-cover scale-110 transition-transform duration-500 ease-out group-hover:scale-100"
+                  className="absolute inset-0 w-full h-full object-fill md:scale-110 transition-transform duration-500 ease-out md:group-hover:scale-100"
                 />
               </div>
               <div className="p-6 h-[250px] relative">

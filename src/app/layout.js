@@ -20,12 +20,12 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className="overflow-x-hidden">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[#f5f7fa] min-h-screen flex flex-col`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[#f5f7fa] min-h-screen flex flex-col overflow-x-hidden relative w-full`}
       >
         <Nav />
-        <main className="flex-grow">
+        <main className="flex-grow relative w-full">
           {children}
         </main>
         <Footer />
