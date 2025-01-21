@@ -31,7 +31,7 @@ export default function Propos() {
       </div>
       <div className='text-center max-w-4xl mx-auto mb-12'>
         <p className='text-base sm:text-lg md:text-xl'>
-          Depuis notre création en 2024, nous travaillons sur la réalisation et le suivi de divers projets pour des clients de tout le Luxembourg, l'Allemagne, la Belgique, la France de l'Autriche et de la Suisse.
+          Depuis notre création en 2024, nous travaillons sur la réalisation et le suivi de divers projets pour des clients de toute la Belgique et nous comptons nous elargir en 2025.
         </p>
       </div>
       <div className='grid grid-cols-1 md:grid-cols-2 gap-8 justify-center items-center mb-12'>
