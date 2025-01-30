@@ -158,7 +158,7 @@ export default function Cards() {
           >
             <div className="flex-grow">
               <h3 className="text-2xl font-bold mb-4">Premium</h3>
-              <div className="text-4xl font-bold text-[#4ea5ff] mb-6">3999€</div>
+              <div className="text-4xl font-bold text-[#4ea5ff] mb-6">2999€</div>
               <p className="text-gray-600 mb-6">Sur-mesure</p>
               <ul className="space-y-4 mb-8">
                 <li className="flex items-center">
@@ -209,6 +209,9 @@ export default function Cards() {
               </motion.button>
             </Link>
           </motion.div>
+        </div>
+        <div className="text-center pt-8">
+          <p>* Nous offrons la possibilité de régler votre paiement en plusieurs fois, jusqu'à 4 échéances.</p>
         </div>
       </div>
     </div>
