@@ -6,7 +6,7 @@ export default function Projets() {
 
   let images = [
     "/images/moviz.png",
-    "/images/yoga.png",
+    "/images/dulce_laces.png",
     "/images/louisBlankaert.png",
   ]
 
@@ -65,7 +65,7 @@ export default function Projets() {
             transition={{ duration: 0.3, ease: "easeOut" }}
             className="bg-white rounded-2xl shadow-lg overflow-hidden group cursor-pointer"
           >
-            <a href="https://yoga-three-cyan.vercel.app/" target="_blank" rel="noopener noreferrer" className="block">
+            <a href="https://dulce-laces.com/" target="_blank" rel="noopener noreferrer" className="block">
               <div className="relative h-64 w-full">
                 {/* Remplacer le src par votre image */}
                 <img 
@@ -76,13 +76,15 @@ export default function Projets() {
               </div>
               <div className="p-6 h-[250px] relative">
                 <div>
-                  <h3 className="text-xl font-bold mb-2 text-[#4ea5ff]">Yoga</h3>
-                  <p className="text-gray-600 mb-4">Dans l'univers de la yoga, nous avons mis en place une application web pour faciliter la communication entre les praticiens et leurs clients.</p>
+                  <h3 className="text-xl font-bold mb-2 text-[#4ea5ff]">E-commerce</h3>
+                  <p className="text-gray-600 mb-4"></p>
                 </div>
                 <div className="flex gap-2 flex-wrap absolute bottom-6">
                   <span className="px-3 py-1 bg-[#4ea5ff]/10 text-[#4ea5ff] rounded-full text-sm">Next.js</span>
                   <span className="px-3 py-1 bg-[#4ea5ff]/10 text-[#4ea5ff] rounded-full text-sm">React</span>
                   <span className="px-3 py-1 bg-[#4ea5ff]/10 text-[#4ea5ff] rounded-full text-sm">Tailwind</span>
+                  <span className="px-3 py-1 bg-[#4ea5ff]/10 text-[#4ea5ff] rounded-full text-sm">Prisma</span>
+                  <span className="px-3 py-1 bg-[#4ea5ff]/10 text-[#4ea5ff] rounded-full text-sm">Stripe</span>
                 </div>
               </div>
             </a>
